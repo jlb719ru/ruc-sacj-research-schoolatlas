@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>CountyBoundaries</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>County boundaries for Pennsylvania, New Jersey, Delaware, 
+Maryland, New York, Connecticut, and the District of Columbia. Original 
+Sources: PA - PennDOT NJ - NJOIT DE - DE Geological Survey MD, NY, CT, 
+DC - ESRI Linework has been adjusted using the following methodology. 
+NJ's boundaries overrode PA, since NJ's were highly accurate. PA 
+overrode MD since PennDOT's were more accurate than ESRI's, and DE 
+overrode PA &amp;amp; MD, since the &amp;quot;arc&amp;quot; of northernmost DE was a bit more 
+accurate than PennDOT's or our original county boundaries. County 
+boundaries in the DVRPC region have been adjusted to align with parcel 
+data (where appropriate). NOTE: Use the following definition query if 
+only need one county in DVRPC Region &amp;quot;Co_Name&amp;quot; LIKE '%Bucks%'</abstract>
+            <purpose>County boundaries for DVRPC Region</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey/>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The Delaware Valley Regional Planning Commission (DVRPC) excludes 
+any and all implied warranties of merchantability and fitness. No 
+guarantees are expressed or implied as to the use or application of the 
+digital information supplied. DVRPC assumes no responsibility to 
+maintain them in any manner or form. DVRPC will not be liable for any 
+direct, indirect, special, incidental, or consequential damages arising 
+out of the use or inability to use the material supplied, or arising out
+ of any inaccuracy or defect in the digital information supplied. 
+Recipients of DVRPC digital files are not entitled to any file 
+revisions, updates, corrections, or new releases. Recipients of DVRPC 
+digital files are expressly prohibited from copying or releasing these 
+files to any other individuals or agencies, under any circumstances. 
+Recipients of DVRPC digital files are expressly prohibited from 
+displaying for view or making these files available for download from 
+the Internet or World Wide Web, under any circumstances.</useconst>
+        <datacred>Delaware Valley Regional Planning Commission (DVRPC)</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

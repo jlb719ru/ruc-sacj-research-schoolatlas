@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "school-atlas"
+version = "0.1.0"
+description = "This file will include all the necessary dependencies for installation and execution of the School Atlas for the research, enabling users to generate maps, visualize data, and analyze geospatial information effectively."
+authors = ["JLB <jlb719@scarletmail.rutgers.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+geopandas = "^1.0.1"
+matplotlib = "^3.10.0"
+folium = "^0.19.2"
+shapely = "^2.0.6"
+mapclassify = "^2.8.1"
+geopy = "^2.4.1"
+openpyxl = "^3.1.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
