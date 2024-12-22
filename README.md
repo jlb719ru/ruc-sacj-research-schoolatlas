@@ -43,7 +43,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 1. Clone the repository and navigate to the project directory:
 
 ``` bash
-cd notebooks
+cd ruc-sacj-research-schoolatlas
 ``` 
 
 2. Install dependencies using Poetry:
