@@ -65,5 +65,13 @@ git push origin <branch_name>
 Go to the original repository and click “Compare & Pull Request.”
 Describe your changes and how your updates contribute.
 
+8. Recommended: HTML Export for Cleaner Visibility
 
+For a better and cleaner view of the notebook's output, you can export the `SACJResearch_SchoolAtlas.ipynb` to HTML. This will remove code inputs and outputs, leaving only the title, description, and visualizations, making it more suitable for presentations or reports.
+
+Use the following command in the command line to export the notebook to HTML:
+
+```bash
+jupyter nbconvert --to html --TemplateExporter.exclude_input=True --no-input --TemplateExporter.exclude_output=False SACJResearch_SchoolAtlas.ipynb
+```
 

@@ -22,6 +22,19 @@ This tool is designed to make it easy to identify and understand the geographica
 
 ---
 
+## Repository Contents
+### **Repository Contents**
+
+- **`shapefiles/`**: Contains the GIS shapefiles extracted from the original `county_boundaries.zip` file. These files are used to map the schools in the Delaware Valley region.  
+- **`CONTRIBUTING.md`**: Provides guidelines and instructions for contributing to the School Atlas project.  
+- **`README.md`**: An overview of the project, including usage instructions, setup details, and key features.  
+- **`SACJResearch_SchoolAtlas.ipynb`**: A Jupyter Notebook that visualizes the school atlas with detailed maps and analysis.  
+- **`county_boundaries.zip`**: The original zip file containing the GIS shapefiles for county boundary data. This data is sourced from [DVRPC Open Data](https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/6184bc21af7b438bbe051be3a54f3b2f_0/explore?location=40.913077%2C-76.096891%2C5.77).  
+- **`poetry.lock`**: Tracks Python dependencies for ensuring consistent development and execution environments.  
+- **`pyproject.toml`**: Configuration file for managing the project’s dependencies and setup using Poetry.  
+
+---
+
 ## Installation
 
 To set up the project locally, clone the repository and install the necessary dependencies:
