@@ -10,7 +10,19 @@ Fixing bugs or optimizing the project.
 
 ## How to Contribute  
 
-### Setting Up the Project
+### Contributing to the SchoolsDatabase
+- Please make sure the format stays consistent.
+- The geoencoder in the code will automatically find the coordinates. Just provide:
+    1. 'name' column: the name of school
+    2. 'type' column: the school type -- ensure this entry remains one of the four: 
+        - **District Public**
+        - **Charter Public**
+        - **Secular Private** 
+        - **Religious Private**
+    3. 'address'column: the address to the school
+    4. 'county' column: the county that the school is located in -- ensures it is in the Del.Val. Region
+
+### Contributing to the the Project
 1. **Fork the Repository**:  
 Click on the "Fork" button in the top-right corner of the repository page to create a personal copy of the project.
 
@@ -67,9 +79,9 @@ Describe your changes and how your updates contribute.
 
 8. Recommended: HTML Export for Cleaner Visibility
 
-For a better and cleaner view of the notebook's output, you can export the `SACJResearch_SchoolAtlas.ipynb` to HTML. This will remove code inputs and outputs, leaving only the title, description, and visualizations, making it more suitable for presentations or reports.
+For a better and cleaner view of the notebook's output, you can export the `SACJResearch_SchoolAtlas.ipynb` to HTML. This will remove code contents, leaving only the title, description, and visualizations, making it more suitable for presentations or reports.
 
-Use the following command in the command line to export the notebook to HTML:
+Use the following command in the terminal command line when finished updating to export the notebook to HTML:
 
 ```bash
 jupyter nbconvert --to html --TemplateExporter.exclude_input=True --no-input --TemplateExporter.exclude_output=False SACJResearch_SchoolAtlas.ipynb
